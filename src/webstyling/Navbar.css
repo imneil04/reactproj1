@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Nav 
+{
+    color: black;
+    width: 100%;
+    /*background-color: rgba(0, 0, 0, 0.2);  */
+    background: linear-gradient(to right, white 50%, rgb(189, 179, 125));  
+    padding: 0.5rem; /*root element - scales with user browser settings*/ 
+}
+
+h2 {
+    color: black;
+}
+
+/*menu list*/
+.Nav .navCont, li
+{ 
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Nav .navCont, li a 
+{
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Nav a:hover
+{
+    transform: scale(1.3);
+    color: wheat;
+}
+
