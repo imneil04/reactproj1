@@ -1,0 +1,26 @@
+/*Date object styling*/
+.datetime
+{
+    background: rgba(0, 0, 0, 0.2);
+    width: 15%;
+    text-align: center;
+    margin: auto;
+    margin-left: 80%;
+    padding: 0.5rem;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.20);
+}
+
+.datetime:hover 
+{
+    cursor: pointer;
+}
+
+@media (max-width: 760px) {
+
+    .datetime {
+       
+        display: none;
+    }
+}

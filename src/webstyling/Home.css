@@ -1,0 +1,244 @@
+/*Home page style*/
+.headerIntro
+{
+    display: block;
+    align-items: center;
+    justify-content: center;  
+    padding: 15px;
+    width: 50%;    
+}
+
+
+.Cont .homeOptions {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.h1
+{
+    
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    padding: 20px;   
+}
+
+/*.h1:hover
+{
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 20%;
+} */
+
+
+.hDesc 
+{
+    display: flex;
+    background-color: grey;
+    justify-content: space-evenly;
+
+}
+
+
+.ntDesc li
+{
+    list-style: none;
+    color: black;
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+.imgHome {
+    
+    width: 100px;
+}
+
+
+/*flip animation/effects for each option styling - 3D(nested containers) */
+.firstOption
+{
+    background-color: transparent;
+    margin: auto;
+    perspective: 1000px;
+    width: 350px;
+    height: 350px;
+}
+
+.secondOption
+{
+    background-color: transparent;
+    margin: auto;
+    perspective: 1000px;
+    width: 350px;
+    height: 350px;
+}
+
+.thirdOption 
+{
+    background-color: transparent;
+    margin: auto;
+    perspective: 1000px;
+    width: 350px;
+    height: 350px;
+}
+
+.fourthOption 
+{
+    background-color: transparent;
+    margin: auto;
+    perspective: 1000px;
+    width: 350px;
+    height: 350px;
+}
+
+
+.fliph1, .fliph2, .fliph3, .fliph4
+
+{  
+    margin: auto;
+    position: relative;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    transform-style: preserve-3d;
+    width: 350px;
+    height: 350px;
+}
+
+
+.firstOption:hover .fliph1 
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+
+.secondOption:hover .fliph2 
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+
+.thirdOption:hover .fliph3
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.fourthOption:hover .fliph4
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+
+.kinfo1, .k1infoback
+{
+    position: absolute;
+    backface-visibility: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*.kinfo1
+{
+    background-color: beige;
+}*/
+
+.k1infoback
+{
+    color: black;
+    transform: rotateY(180deg);
+    width: 350px;
+    height: 350px;
+}
+
+.k1infoback p 
+{
+    margin: auto;
+    margin-top: 40%;
+    padding: 20px;
+}
+
+
+/*media queries - for responsive display*/
+@media(max-width: 760px) {
+
+    .h1 {
+
+        height: 200px;
+    }
+
+    .headerIntro {
+        
+        position: relative;
+        margin: auto;
+    }
+
+    .homeOptions {
+
+        margin: auto;
+        margin-top: 2%;
+    }
+
+    .headerIntro p {
+
+        font-size: 12px;
+    }
+
+   
+    .fliph1 .fliph2 .fliph3 .fliph4 {
+
+        height: 200px;
+    }
+
+     .imgHome {
+        
+       display: none;
+    } 
+
+    .firstOption {
+
+        height: 200px;
+        font-size: 11px;
+    }
+
+    .secondOption {
+
+        height: 200px;
+        font-size: 11px;
+    }
+
+    .thirdOption {
+
+        height: 200px;
+        font-size: 11px;
+    }
+
+    .fourthOption {
+
+        height: 200px;
+        font-size: 11px;
+    }
+
+    .k1infoback {
+
+        height: 200px;
+    }
+
+    .k1infoback p {
+
+        margin-top: 10%;
+    }  
+}
+
+

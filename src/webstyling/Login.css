@@ -1,0 +1,155 @@
+.parentloginCont
+{
+    position: absolute;
+    background: linear-gradient(to right, white 50%, rgb(189, 179, 125));
+    height: 100vh;
+    width: 100%;   
+}
+
+/*Login form styling - form*/
+.loginCont
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;  
+    margin-top: 5%;
+    width: 50%;
+    height: 50vh;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.20);
+}
+
+
+.memberLogin
+{
+    position: relative;
+    background-color: whitesmoke;
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+}
+
+
+.memberLogin .logFields {
+
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230, 230, 235);
+    font-style: 1.1rem;
+}
+
+
+.memberLogin .formCont {
+
+    margin-top: 35px;
+}
+
+.formCont .memberSignLogin {
+
+    position: absolute;
+    display: inline-block;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width: 80%;
+}
+
+.memberSignLogin .btnSubmit {
+
+    margin: auto;
+    margin-left: 50px;
+    width: 30%;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+/*.input-wrap {
+    position: relative;
+
+}
+
+.input-wrap i {
+
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555;
+}  */
+
+/*.input-wrap:hover i {
+    opacity: 0;
+} */
+
+/*login form styling - nonmember */
+
+.nonmemberLogin
+{
+    position: relative;
+    width: 50%;
+    height: 100%; 
+    background-image: url('../images/playgroundb-unsplash.jpg');  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*hover effects */
+.logFields:hover {
+
+    transition: 0.2s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(30, 85, 250, 0.45);
+}
+
+.btnSubmit:hover {
+
+    cursor: pointer;
+    background-color: wheat;
+}
+
+/*media queries - responsive styling (based on screen size)*/
+@media(min-width: 280px) and (max-width: 1150px) {
+
+    .loginCont .memberLogin {
+
+        width: 100%;
+    }
+
+    .loginCont .nonmemberLogin {
+
+       display: none;
+    } 
+
+    .memberSignLogin .btnSubmit {
+          
+        width: 50%;
+        margin-top: 10%;
+        font-size: 12px;
+    }
+
+    .memberSignLogin .spanLink {
+        
+        font-size: 12px;
+    }
+
+}
+
+
+@media(max-width: 1200px) {
+
+    .loginCont .memberLogin {
+
+        width: 100%;
+    }
+
+    .loginCont .nonmemberLogin {
+        display: none;
+    }
+}
+
+
+
+

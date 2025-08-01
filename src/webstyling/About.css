@@ -1,0 +1,243 @@
+/*About page styling */
+
+.aboutTitleHeader
+{
+    display: block;
+    text-align: left; 
+    padding: 15px;
+}
+
+.aboutOption
+{  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;  
+}
+
+.abtlocation
+{
+    /*display: block;  */
+    width: 350px;
+    height: 350px;
+    padding: 15px;
+}
+
+.cities 
+{
+    width: 220px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+.branchinfo li
+{
+    list-style: none;
+    color: black;
+    font-weight: lighter;
+    margin: auto;
+    padding: 0;
+    font-size: 15px;
+}
+
+.aboutTeamCont 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    align-items: center;
+    text-align: center; 
+    margin: auto;
+    width: 100%; 
+    gap: 1rem;
+    /*overflow-x: auto;
+    overflow-y: hidden;
+    flex-direction: row; */
+}
+
+.abtTeam 
+{
+    width: 300px;
+    height: 300px;
+    padding: 1rem;
+}
+
+
+/*image icons*/
+.tmember
+{
+    margin: auto;
+}
+
+/*Hover effects */
+.abtlocation:hover
+{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+    
+}
+
+.abtlocation:hover li
+{
+    color: black;
+}
+
+.abtlocation:hover h2
+{
+    color: wheat;
+}
+
+.abtTeam:hover {
+
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.abtTeam:hover li {
+
+    color: black;
+}
+
+.abtTeam:hover h2 {
+
+    color: wheat;
+}
+
+/*responsive CSS - media queries*/
+
+/*screen size 770px up to 1068px*/
+@media (min-width: 770px) and (max-width: 1068px) {
+
+    .aboutOption {
+
+        flex-direction: row;
+        height: 300px;
+    }
+    
+    .abtlocation {
+        
+        width: 250px;
+        height: 250px;
+        margin: auto;   
+    }
+
+    .abtlocation h2 {
+
+        display: none;
+    }
+
+    .cities {
+
+        width: 150px;
+        height: 150px;
+    }
+
+    .tmember {
+
+        width: 100px;
+        height: 100px;
+    }
+
+    .branchinfo li {
+
+        font-size: 11px;
+        text-align: center;
+    }
+
+    /*users icon */
+    .aboutTeamCont {
+        
+        flex-direction: row;
+        height: 300px;
+    }
+
+    .abtTeam {
+
+        width: 240px;
+        height: 240px;
+
+    }
+
+    .abtTeam h2 {
+
+        display: none;
+    }
+}
+
+/*screen size max 768px*/
+@media (max-width: 768px) {
+
+    .aboutTitleHeader {
+
+        margin: auto;
+    }
+
+    .aboutOption {
+
+        flex-direction: row;
+        height: 300px;
+    }
+    
+    .abtlocation {
+        
+        width: 150px;
+        height: 250px;
+        margin: auto;   
+    }
+
+    .abtlocation h2 {
+
+        display: none;
+    }
+
+    .cities {
+
+        width: 120px;
+        height: 120px;
+    }
+
+    .tmember {
+
+        width: 100px;
+        height: 100px;
+    }
+
+    .branchinfo li {
+
+        font-size: 11px;
+        text-align: center;
+    }
+
+    /*users icon */
+    .aboutTeamCont {
+        
+        flex-direction: row;
+        height: 300px;
+    }
+
+    .abtTeam {
+
+        width: 150px;
+        height: 200px;
+
+    }
+
+    .abtTeam h2 {
+
+        display: none;
+    }
+
+    
+}
+
+@media (max-width: 1200px) {
+    .aboutOption {
+
+        position: relative;
+    }
+}
