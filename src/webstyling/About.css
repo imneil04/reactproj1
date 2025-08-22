@@ -169,12 +169,17 @@
     }
 }
 
-/*screen size max 768px*/
-@media (max-width: 768px) {
+/*screen size for mobile responsiveness*/
+@media(min-width: 390px) and (max-width: 844px) {
 
     .aboutTitleHeader {
 
         margin: auto;
+    }
+
+    .aboutTitleHeader p {
+
+        display: none;
     }
 
     .aboutOption {
@@ -187,7 +192,9 @@
         
         width: 150px;
         height: 250px;
-        margin: auto;   
+        margin: auto;  
+        margin-top: -15%;
+      
     }
 
     .abtlocation h2 {
@@ -195,10 +202,15 @@
         display: none;
     }
 
+    .abtTeam {
+
+        margin-top: -5%;
+    }
+
     .cities {
 
-        width: 120px;
-        height: 120px;
+        width: 110px;
+        height: 110px;
     }
 
     .tmember {
@@ -211,7 +223,9 @@
 
         font-size: 11px;
         text-align: center;
+        
     }
+
 
     /*users icon */
     .aboutTeamCont {

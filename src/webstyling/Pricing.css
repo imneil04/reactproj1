@@ -51,16 +51,24 @@
 }
 
 /*responsive CSS - media queries*/
-@media(max-width: 768px) {
+@media(min-width: 390px) and (max-width: 844px) {
 
     .pricingTitleHeader {
 
         margin: auto;
+        margin-top: 5%;
+    }
+
+    .pricingTitleHeader p {
+
+        font-size: 12px;
     }
 
     .pricingOptionCont {
         
         position: relative;
+        margin-top: -60%;
+        font-size: 11px;
     }
 
     .pricingpic {

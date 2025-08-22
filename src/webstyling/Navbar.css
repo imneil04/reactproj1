@@ -46,3 +46,10 @@ h2 {
     color: wheat;
 }
 
+@media(min-width: 390px) and (max-width: 844px)
+{
+    .navCont li {
+
+        font-size: 14px; 
+    }
+}
