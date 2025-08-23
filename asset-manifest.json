@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reactproj1/static/css/main.c577ae3f.css",
+    "main.css": "/reactproj1/static/css/main.58a5de28.css",
     "main.js": "/reactproj1/static/js/main.e2a2dcf7.js",
     "static/js/488.f262f133.chunk.js": "/reactproj1/static/js/488.f262f133.chunk.js",
     "static/media/playgroundb-unsplash.jpg": "/reactproj1/static/media/playgroundb-unsplash.3aff70702e44d038aad5.jpg",
@@ -13,12 +13,12 @@
     "static/media/house.png": "/reactproj1/static/media/house.7e33b80c18beb8d53fb3.png",
     "static/media/nutrition.png": "/reactproj1/static/media/nutrition.09683d4429816cac31e3.png",
     "index.html": "/reactproj1/index.html",
-    "main.c577ae3f.css.map": "/reactproj1/static/css/main.c577ae3f.css.map",
+    "main.58a5de28.css.map": "/reactproj1/static/css/main.58a5de28.css.map",
     "main.e2a2dcf7.js.map": "/reactproj1/static/js/main.e2a2dcf7.js.map",
     "488.f262f133.chunk.js.map": "/reactproj1/static/js/488.f262f133.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c577ae3f.css",
+    "static/css/main.58a5de28.css",
     "static/js/main.e2a2dcf7.js"
   ]
 }
