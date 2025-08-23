@@ -111,7 +111,7 @@
 }
 
 /*media queries - responsive styling (based on screen size)*/
-@media(min-width: 280px) and (max-width: 1150px) {
+@media(min-width: 390px) and (max-width: 1150px) {
 
     .loginCont .memberLogin {
 
@@ -123,16 +123,26 @@
        display: none;
     } 
 
+    .memberSignLogin {
+
+        align-items: center;
+        text-align: center;
+        
+    }
+
     .memberSignLogin .btnSubmit {
           
         width: 50%;
-        margin-top: 10%;
-        font-size: 12px;
+        margin-top: 5%;
+        margin-right: 20%;
+        font-size: 11px;
+        position: relative;
     }
 
     .memberSignLogin .spanLink {
         
-        font-size: 12px;
+        font-size: 10px;
+        margin-right: 10%;
     }
 
 }
