@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/reactproj1/static/css/main.58a5de28.css",
+    "main.js": "/reactproj1/static/js/main.e2a2dcf7.js",
+    "static/js/488.f262f133.chunk.js": "/reactproj1/static/js/488.f262f133.chunk.js",
+    "static/media/playgroundb-unsplash.jpg": "/reactproj1/static/media/playgroundb-unsplash.3aff70702e44d038aad5.jpg",
+    "static/media/mttpic-unsplash.jpg": "/reactproj1/static/media/mttpic-unsplash.c3bcad8dbe26cc0a7523.jpg",
+    "static/media/kidsinsand-unsplash.jpg": "/reactproj1/static/media/kidsinsand-unsplash.586eda616c5410666b3a.jpg",
+    "static/media/calgarypic-unsplash.jpg": "/reactproj1/static/media/calgarypic-unsplash.26c24e7052fcd202b241.jpg",
+    "static/media/toys-unsplash.jpg": "/reactproj1/static/media/toys-unsplash.490bbf11cc44e2dc1ea7.jpg",
+    "static/media/edmpic-unsplash.jpg": "/reactproj1/static/media/edmpic-unsplash.76513f20f3a5f797f60c.jpg",
+    "static/media/toyspack.png": "/reactproj1/static/media/toyspack.6a0530db3525245f5779.png",
+    "static/media/house.png": "/reactproj1/static/media/house.7e33b80c18beb8d53fb3.png",
+    "static/media/nutrition.png": "/reactproj1/static/media/nutrition.09683d4429816cac31e3.png",
+    "index.html": "/reactproj1/index.html",
+    "main.58a5de28.css.map": "/reactproj1/static/css/main.58a5de28.css.map",
+    "main.e2a2dcf7.js.map": "/reactproj1/static/js/main.e2a2dcf7.js.map",
+    "488.f262f133.chunk.js.map": "/reactproj1/static/js/488.f262f133.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58a5de28.css",
+    "static/js/main.e2a2dcf7.js"
+  ]
+}
